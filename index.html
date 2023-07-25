@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- imorts the css for styling -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- display icon to the html page -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <!-- display date -->
+            <div id="date"></div>
+
+            <h2>To-Do List <img src="images/favicon.ico" alt=""></h>
+                <!-- add task with a button on click -->
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Add your text">
+                    <button onclick="addTask()">Add</button>
+                </div>
+                <!-- display the list of TODO Task items in a list format -->
+                <ul id="list-container"></ul>
+        </div>
+    </div>
+    <!-- imports the necessary javascript file -->
+    <script src="./js/todo.js"></script>
+</body>
+
+</html>
